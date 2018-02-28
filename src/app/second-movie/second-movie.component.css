@@ -1,6 +1,10 @@
 
 .content {
-  height: 100vh;
-  background-color: #212121;
-  font-size: 36px;
+  min-height: 100vh;
+  height: auto;
+  margin: 0;
+
+  /* Create the parallax scrolling effect */
+  background: url("Tokyo_gore_police_back.jpg") no-repeat fixed center;
+  background-size: cover;
 }
