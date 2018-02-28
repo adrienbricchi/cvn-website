@@ -1,0 +1,10 @@
+
+.parallax {
+  min-height: 100vh;
+  height: auto;
+  margin: 0;
+
+  /* Create the parallax scrolling effect */
+  background: url("CVN_logo.png") no-repeat fixed center;
+  background-size: cover;
+}
