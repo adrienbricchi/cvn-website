@@ -1,8 +1,9 @@
 
 .content {
-  min-height: 100vh;
+  min-height: 50vh;
   height: auto;
   margin: 0;
+  opacity: 0.65;
 
   /* Create the parallax scrolling effect */
   background: url("La_colline_a_des_yeux_2007_back.jpg") no-repeat fixed center;

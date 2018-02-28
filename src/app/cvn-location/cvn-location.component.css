@@ -3,6 +3,7 @@
   min-height: 100vh;
   height: auto;
   margin: 0;
+  opacity: 0.65;
 
   /* Create the parallax scrolling effect */
   background: url("Location.png") no-repeat fixed center;
