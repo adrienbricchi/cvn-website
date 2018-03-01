@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { MaterialModule } from './material-module/material-module.module';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppComponent } from './app.component';
 import { CvnHeaderComponent } from './cvn-header/cvn-header.component';
@@ -25,7 +26,8 @@ import { SecondMovieContentComponent } from './second-movie-content/second-movie
   ],
   imports: [
     BrowserModule,
-    MaterialModule
+    MaterialModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
