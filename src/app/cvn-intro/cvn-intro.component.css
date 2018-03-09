@@ -1,0 +1,16 @@
+
+.content {
+  height: auto;
+  margin: 0;
+  padding: 50px 80px;
+  background: #212121;
+
+  text-align: justify;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: white;
+}
+
+.main-title {
+  width: auto;
+  text-align: center;
+}

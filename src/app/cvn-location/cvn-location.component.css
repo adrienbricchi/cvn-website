@@ -1,0 +1,28 @@
+
+.content {
+  height: auto;
+  margin: 0;
+  padding: 50px 80px;
+
+  /* Create the parallax scrolling effect */
+  background: linear-gradient(rgba(55, 55, 55, 0.5), rgba(55, 55, 55, 0.5)), url("Location.png") no-repeat fixed center;
+  background-size: cover;
+}
+
+.row-container{
+  display: flex;
+}
+
+.row {
+  flex:1;
+  margin-right: 12px;
+  padding-top: 9px;
+
+  font: 400 15px/1.8 "Lato", sans-serif;
+  text-align: right;
+  color: white;
+}
+
+.bigger {
+  font-size: 150%;
+}

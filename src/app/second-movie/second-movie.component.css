@@ -1,0 +1,11 @@
+
+.content {
+  min-height: 25vh;
+  height: auto;
+  margin: 0;
+  opacity: 0.65;
+
+  /* Create the parallax scrolling effect */
+  background: url("Tokyo_gore_police_back.jpg") no-repeat fixed center;
+  background-size: cover;
+}
