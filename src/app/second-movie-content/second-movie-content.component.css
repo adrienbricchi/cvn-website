@@ -1,24 +1,30 @@
 
-.content {
+.canvas {
   min-height: 70vh;
   height: auto;
   margin: 0;
   padding: 50px 80px;
   background: #212121;
-
-  display: flex;
 }
+
+
+.content {
+  display: flex;
+  margin: auto;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: white;
+  max-width: 1080px;
+  text-align: justify;
+}
+
 
 .cover {
   max-height: 70vh;
 }
 
+
 .description {
   max-height: 70vh;
   margin-left: 50px;
   flex: 1;
-
-  font: 400 15px/1.8 "Lato", sans-serif;
-  text-align: justify;
-  color: white;
 }

@@ -1,5 +1,5 @@
 
-.content {
+.canvas {
   height: auto;
   margin: 0;
   padding: 50px 80px;
@@ -9,9 +9,20 @@
   background-size: cover;
 }
 
+
+.content {
+  margin: auto;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: white;
+  max-width: 1080px;
+  text-align: justify;
+}
+
+
 .row-container{
   display: flex;
 }
+
 
 .row {
   flex:1;
@@ -22,6 +33,7 @@
   text-align: right;
   color: white;
 }
+
 
 .bigger {
   font-size: 150%;
